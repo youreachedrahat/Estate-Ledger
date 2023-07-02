@@ -1,8 +1,8 @@
-> __<h2>Token Contract:</h2>__
+__<h2>Token Contract:</h2>__
 >
 >> - Manages the creation and distribution of tokens representing stakes in the property development.
 >
-> #### How it works? 
+#### How it works? 
 >
 >> - A Token Price Derivatives Contract is a financial agreement that allows individuals or entities to speculate on the future price movement of a particular token or cryptocurrency. It provides a mechanism for investors to manage risk and potentially profit from the price fluctuations of the token.
 
