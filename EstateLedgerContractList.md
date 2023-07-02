@@ -14,3 +14,9 @@ Base Contracts:
 Derivative Contracts:
 
 1. [Derivative Contracts]: Provide additional financial instruments based on the future price of properties or tokens, allowing users to speculate on price movements and manage their risk.
+
+
+EstateLedger also introduces a novel approach to real estate investment through tokenization. Each property on the platform is represented by a unique token, and these tokens can be bought and sold on the EstateLedger marketplace. This opens up the real estate market to a wider range of investors and provides more liquidity.
+In addition to these base features, EstateLedger will incorporate several advanced technologies to enhance its functionality and user experience. IoT devices will be used to monitor and manage properties in real time, Artificial Intelligence/Machine Learning algorithms analyze data and automate processes, and Augmented Reality/Virtual Reality technologies enhance the property viewing experience.
+
+One of the most innovative features of EstateLedger is its integration of derivative contracts. These contracts provide additional financial instruments based on the future price of properties or tokens, allowing users to speculate on price movements and manage their risk. This adds another layer of financial innovation to the platform and provides more opportunities for users.
