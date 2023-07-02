@@ -9,7 +9,7 @@ Base Contracts:
 3. **Property Development Contract**: Manages the stages of property development, releasing funds for each stage upon completion.
 4. **Trading Contract**: Facilitates the trading of tokens on the marketplace.
 5. **Profit Distribution Contract**: Manages the distribution of profits from property sales to the token holders.
-6. [**Governance Contract**](/Base-Contract/GovernanceContract/GovernanceContract.md): Handles the governance of the platform, allowing token holders to submit proposals and vote on changes to the platform.
+6. [Governance Contract](/Base-Contracts/GovernanceContract/GovernanceContract.md): Handles the governance of the platform, allowing token holders to submit proposals and vote on changes to the platform.
 
 Derivative Contracts:
 
