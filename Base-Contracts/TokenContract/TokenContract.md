@@ -21,8 +21,8 @@ __<h2>Token Contract:</h2>__
 #### Code Blocks and explanations:
 
 - **"when": [...]:**
-    This line introduces another nested when block.
-    It indicates that this nested when block will be executed when the previous then block is triggered.
+    > This line introduces another nested when block.
+    > It indicates that this nested when block will be executed when the previous then block is triggered.
 
 - "then": {...}:
     This line starts a then block within the nested when block.
