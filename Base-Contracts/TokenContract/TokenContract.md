@@ -18,7 +18,7 @@ __<h2>Token Contract:</h2>__
 
 > - In conclusion, a Token Price Derivatives Contract provides a flexible and efficient way for individuals and institutions to engage with the token market. By leveraging price movements and predictions, traders can potentially generate profits and manage risk. This type of contract contributes to the overall development and maturation of the token ecosystem, providing additional avenues for investment and speculation.
 
-#### Code Blocks and explanations:
+[#### Code Blocks and explanations](/TokenContract.json):
 
 - "when": [...]:
     > This line introduces another nested when block.
