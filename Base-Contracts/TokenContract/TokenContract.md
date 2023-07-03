@@ -38,19 +38,19 @@ __<h2>Token Contract:</h2>__
     > "currency_symbol": "8bb3b343d8e404472337966a722150048c768d0a92a9813596c5338d": This line specifies the currency symbol of the token. The currency symbol is a unique      identifier for the token, and it helps differentiate it from other tokens. The value provided here is a hexadecimal representation of the currency symbol.Tokens in Marlowe represent digital assets or currencies that can be transferred between parties. They can be used to simulate and model the behavior of real-world assets within the contract. The "token" block is commonly used when specifying token transfers or token-related actions in the contract logic.
 
 - "to": { "party": { "role_token": "Land2023-0" } },
-    "to": This field indicates the recipient of the token transfer.
+    > "to": This field indicates the recipient of the token transfer.
 
-    { "party": { "role_token": "Land2023-0" } }: This nested structure specifies the recipient as a party with the role token "Land2023-0".
+    > { "party": { "role_token": "Land2023-0" } }: This nested structure specifies the recipient as a party with the role token "Land2023-0".
     In Marlowe, parties are identified by role tokens, which act as unique identifiers for participants in the contract. The "role_token" field specifies the specific role token associated with the party. In this case, the role token is "Land2023-0".
 
  - "pay": 100, "from_account": { "role_token": "Land2023-0" }
-    The code snippet "pay": 100, "from_account": { "role_token": "Land2023-0" } is used to specify the source of funds for a token transfer within the Marlowe contract. Let's break down its components:
+   >  The code snippet "pay": 100, "from_account": { "role_token": "Land2023-0" } is used to specify the source of funds for a token transfer within the Marlowe contract. Let's break down its components:
 
-    "pay": 100: This line indicates the amount of the token that will be transferred. In this case, the value is 100. It represents the quantity or value of the token being sent.
+    > "pay": 100: This line indicates the amount of the token that will be transferred. In this case, the value is 100. It represents the quantity or value of the token being sent.
 
-    "from_account": { "role_token": "Land2023-0" }: This line specifies the account from which the token will be transferred. The "role_token" field indicates the specific role token associated with the account. In this case, the role token is "Land2023-0".Hence contract signifies that 100 units of the token will be transferred from the account associated with the role token "Land2023-0". The specified amount will be deducted from the sender's account and transferred to the designated recipient as defined in the to field of the token transfer action.
+    > "from_account": { "role_token": "Land2023-0" }: This line specifies the account from which the token will be transferred. The "role_token" field indicates the specific role token associated with the account. In this case, the role token is "Land2023-0".Hence contract signifies that 100 units of the token will be transferred from the account associated with the role token "Land2023-0". The specified amount will be deducted from the sender's account and transferred to the designated recipient as defined in the to field of the token transfer action.
 
 -  "timeout_continuation": "close", "timeout": 1672511400000
-    "timeout_continuation": "close": This line defines the action to be taken when the timeout specified in the contract is reached. In this case, the action is set to "close". The "close" action typically indicates that the contract execution will be terminated or concluded.
+    > "timeout_continuation": "close": This line defines the action to be taken when the timeout specified in the contract is reached. In this case, the action is set to "close". The "close" action typically indicates that the contract execution will be terminated or concluded.
 
-    "timeout": 1672511400000: This line sets the timeout value for the contract. The value specified here represents a timestamp in milliseconds. In this case, the timeout value is set to 1672511400000.When the specified timeout is reached during the execution of the contract, the action specified in "timeout_continuation" will be triggered. In this case, as it is set to "close", the contract will be closed or terminated when the specified timeout value is reached.
+    > "timeout": 1672511400000: This line sets the timeout value for the contract. The value specified here represents a timestamp in milliseconds. In this case, the timeout value is set to 1672511400000.When the specified timeout is reached during the execution of the contract, the action specified in "timeout_continuation" will be triggered. In this case, as it is set to "close", the contract will be closed or terminated when the specified timeout value is reached.
