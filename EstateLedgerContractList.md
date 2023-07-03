@@ -13,7 +13,7 @@ Base Contracts:
 
 Derivative Contracts:
 
-1. [Derivative Contracts]: Provide additional financial instruments based on the future price of properties or tokens, allowing users to speculate on price movements and manage their risk.
+1. [Derivative Contracts](/Derivative-Contracts/DerivativeContract.md): Provide additional financial instruments based on the future price of properties or tokens, allowing users to speculate on price movements and manage their risk.
 
 
 EstateLedger also introduces a novel approach to real estate investment through tokenization. Each property on the platform is represented by a unique token, and these tokens can be bought and sold on the EstateLedger marketplace. This opens up the real estate market to a wider range of investors and provides more liquidity.
