@@ -20,22 +20,22 @@ __<h2>Token Contract:</h2>__
 
 #### Code Blocks and explanations:
 
-- **"when": [...]:**
+- "when": [...]:
     > This line introduces another nested when block.
     > It indicates that this nested when block will be executed when the previous then block is triggered.
 
 - "then": {...}:
-    This line starts a then block within the nested when block.
-    It specifies the actions to be taken when the event within the nested when block occurs.
+    > This line starts a then block within the nested when block.
+    > It specifies the actions to be taken when the event within the nested when block occurs.
 
 - "token": {
                   "token_name": "Land2023-1",
                   "currency_symbol": "8bb3b343d8e404472337966a722150048c768d0a92a9813596c5338d"
                 },
 
-    "token_name": "Land2023-1": This line specifies the name of the token. In this case, the token is named "Land2023-1".
+    > "token_name": "Land2023-1": This line specifies the name of the token. In this case, the token is named "Land2023-1".
 
-    "currency_symbol": "8bb3b343d8e404472337966a722150048c768d0a92a9813596c5338d": This line specifies the currency symbol of the token. The currency symbol is a unique identifier for the token, and it helps differentiate it from other tokens. The value provided here is a hexadecimal representation of the currency symbol.Tokens in Marlowe represent digital assets or currencies that can be transferred between parties. They can be used to simulate and model the behavior of real-world assets within the contract. The "token" block is commonly used when specifying token transfers or token-related actions in the contract logic.
+    > "currency_symbol": "8bb3b343d8e404472337966a722150048c768d0a92a9813596c5338d": This line specifies the currency symbol of the token. The currency symbol is a unique      identifier for the token, and it helps differentiate it from other tokens. The value provided here is a hexadecimal representation of the currency symbol.Tokens in Marlowe represent digital assets or currencies that can be transferred between parties. They can be used to simulate and model the behavior of real-world assets within the contract. The "token" block is commonly used when specifying token transfers or token-related actions in the contract logic.
 
 - "to": { "party": { "role_token": "Land2023-0" } },
     "to": This field indicates the recipient of the token transfer.
